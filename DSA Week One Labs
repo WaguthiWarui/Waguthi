@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+    signed int t = -3000000000;
+    signed int T = 3000000000;
+    unsigned int g = -5000000000;
+    unsigned int G = 5000000000;
+    
+    signed char a = -130;
+    signed char A = 1300;
+    unsigned char r = -300;
+    unsigned char R = 300;
+    
+    signed short m = -35000;
+    signed short M = 350000;
+    unsigned  k = -66000;
+    unsigned short K = 66000;
+    
+    return 0;
+}
