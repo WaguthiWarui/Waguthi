@@ -1,0 +1,88 @@
+#include<iostream>
+
+using std::cout;
+using std::cin;
+using std::endl;
+
+void error(){
+
+cout<<"Incorrect Letter grade entered."
+<<"Enter a anew grade."<<endl;
+}
+
+int main()
+{
+char grade;
+int aCount = 0,
+bCount = 0,
+cCount = 0,
+dCount = 0,
+fCount = 0;
+
+cout<<"Enter the later grades."<<endl
+<<"Enter the EOF character to end input."<<endl;
+
+while((grade = cin.get())!=EOF){
+
+if(grade == 'A' || grade =='a')++aCount;
+
+else if(grade =='B' || grade =='b')++bCount;
+
+else if(grade =='C' || grade =='c')++cCount;
+
+else if(grade =='D' || grade =='d')++dCount;
+
+else if(grade =='F' || grade =='f')++fCount;
+
+else if(grade =='E' || grade =='e'){error();}
+
+else if(grade =='G' || grade =='g'){error();}
+
+else if(grade =='H' || grade =='h'){error();}
+
+else if(grade =='I' || grade =='i'){error();}
+
+else if(grade =='J' || grade =='j'){error();}
+
+else if(grade =='K' || grade =='k'){error();}
+
+else if(grade =='L' || grade =='l'){error();}
+
+else if(grade =='M' || grade =='m'){error();}
+
+else if(grade =='N' || grade =='n'){error();}
+
+else if(grade =='O' || grade =='o'){error();}
+
+else if(grade =='P' || grade =='p'){error();}
+
+else if(grade =='Q' || grade =='q'){error();}
+
+else if(grade =='R' || grade =='r'){error();}
+
+else if(grade =='S' || grade =='s'){error();}
+
+else if(grade =='T' || grade =='t'){error();}
+
+else if(grade =='U' || grade =='u'){error();}
+
+else if(grade =='V' || grade =='v'){error();}
+
+else if(grade =='W' || grade =='w'){error();}
+
+else if(grade =='X' || grade =='x'){error();}
+
+else if(grade =='Y' || grade =='y'){error();}
+
+else if(grade =='Z' || grade =='z'){error();}
+}
+
+cout<<"\n\nTotals for each letter grade are"
+<<"\nA:"<<aCount
+<<"\nB:"<<bCount
+<<"\nC:"<<cCount
+<<"\nD:"<<dCount
+<<"\nF:"<<fCount<<endl;
+
+return 0;
+}
